@@ -7,7 +7,7 @@ const randomUnique = (range, count) => {
     while (nums.size < count) {
         nums.add(Math.floor(Math.random() * (range - 1 + 1) + 1));
     }
-    console.log(...nums)
+   // console.log(...nums)
     return [...nums];
 }
 
@@ -30,7 +30,7 @@ function Sgalery() {
         </div>
         </div>
         </div>`;
-                console.log(data);
+                //console.log(data);
             });
     }
 }
